@@ -5,12 +5,12 @@ class Opciones extends Component {
     return (
       <section className="opciones">
         <article className="opcion">
-          <button className="botones">A</button>
-          <p>Pedir ayuda a los gritos</p>
+          <button className="botones" onClick={this.props.onClick}>A</button>
+          <p>{this.props.opcionA}</p>
         </article>
         <article className="opcion">
-          <button className="botones">B</button>
-          <p>Mirar a mi alrededor</p>
+          <button className="botones" onClick={this.props.onClick}>B</button>
+          <p>{this.props.opcionB}</p>
         </article>
       </section>
     );
