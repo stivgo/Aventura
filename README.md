@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[CodeSandboxLink](https://codesandbox.io/s/distracted-grothendieck-2wubj?file=/src/index.js)
 
 ## Available Scripts
 
